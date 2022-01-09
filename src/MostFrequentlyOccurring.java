@@ -16,10 +16,10 @@ public class MostFrequentlyOccurring {
      */
 
 
-    public static void main(String[] args){
-        Integer[] numbers = {1,3,1,3,2,1, 3, 3};
-        System.out.println(mostFrequestOcceringItem(numbers));
-    }
+//    public static void main(String[] args){
+//        Integer[] numbers = {1,3,1,3,2,1, 3, 3};
+//        System.out.println(mostFrequestOcceringItem(numbers));
+//    }
 
     private static Integer mostFrequestOcceringItem(Integer[] numbers) {
         Map<Integer, Integer> counter= new HashMap<Integer, Integer>();
