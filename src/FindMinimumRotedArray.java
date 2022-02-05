@@ -7,8 +7,11 @@ public class FindMinimumRotedArray {
         } else {
             int mid = (maxIndx + minIndx) / 2;
             if (array[maxIndx] > array[mid]){
+
+                //Rite sirterd
                 return FindMinimumRotedArray.getMin(array, minIndx , mid-1);
             } else {
+                // Left sorted
                 return FindMinimumRotedArray.getMin(array, mid, maxIndx);
             }
         }
